@@ -65,7 +65,7 @@ body {
     border-radius: 10px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 950px) {
     .toggle-button {
         display: flex;
     }
@@ -93,7 +93,7 @@ body {
         padding: .5rem .1rem;
     }
 
-    .navigationBar-links:active {
+    .navigationBar-links.active {
         display: flex;
     }
 
