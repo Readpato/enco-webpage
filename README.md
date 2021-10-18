@@ -1,2 +1,5 @@
 # EnCoWebPage
- Code for the EnCo WebPage
+ HTML, CSS and JS code for the EnCo WebPage.
+
+
+
