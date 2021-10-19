@@ -98,3 +98,18 @@ body {
     }
 }
 
+
+.centralGreeting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainPhrase {
+    animation-duration: 3s;
+}
+
+.mainCompanyTitle {
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
