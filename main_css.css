@@ -119,3 +119,9 @@ body {
 .initial-image {
     right: 200px;
 }
+
+.generalInformation {
+    background-color: #228B22;;
+    width: 100%;
+    height: 500px;
+}
