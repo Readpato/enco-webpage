@@ -136,7 +136,8 @@ body {
 }
 
 .generalInformation img {
-    margin: 50px 
+    margin: 50px;
+    cursor: pointer;
 }
 
 .generalInformation-container {
@@ -150,6 +151,11 @@ body {
     filter: brightness(77%);
 }
 
+.installator-image:hover {
+    transition-duration: 150ms;
+    box-shadow: 7px 7px 10px black;
+}
+
 .installator-image-text {
     position: absolute;
     top: 300px;
@@ -157,12 +163,7 @@ body {
     font-size: 30px;
     font: bold;
     color: white;
-}
 
-
-.installator-image:hover {
-    transition-duration: 150ms;
-    box-shadow: 10px 10px 10px black;
 }
 
 .community-image {
@@ -170,6 +171,11 @@ body {
     width: 20%;
     position: relative;
     filter: brightness(70%);
+}
+
+.community-image:hover {
+    transition-duration: 150ms;
+    box-shadow: 7px 7px 10px black;
 }
 
 .community-image-text {
@@ -191,6 +197,13 @@ body {
     box-shadow: black;
 }
 
+.renovable-plant-image:hover {
+    transition-duration: 150ms;
+    box-shadow: 7px 7px 10px black;
+}
+
+
+
 .renovable-plant-image-text {
     position: absolute;
     top: 300px;
@@ -200,6 +213,9 @@ body {
     color: white;
 }
 
+.hidden {
+    display: none;
+}
 
 
 
