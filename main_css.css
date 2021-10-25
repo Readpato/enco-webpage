@@ -125,5 +125,81 @@ body {
     right: 200px;
 }
 
+.generalInformation {
+    background-color: #228B22;;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.generalInformation img {
+    margin: 50px 
+}
+
+.generalInformation-container {
+    position: relative;
+}
+
+.installator-image {
+    position: relative;
+    height: 75%;
+    width: 20%;
+    filter: brightness(77%);
+}
+
+.installator-image-text {
+    position: absolute;
+    top: 300px;
+    left: 215px;
+    font-size: 30px;
+    font: bold;
+    color: white;
+}
+
+
+.installator-image:hover {
+    transition-duration: 150ms;
+    box-shadow: 10px 10px 10px black;
+}
+
+.community-image {
+    height: 75%;
+    width: 20%;
+    position: relative;
+    filter: brightness(70%);
+}
+
+.community-image-text {
+    position: absolute;
+    top: 17rem;
+    right: 15.5rem;
+    font-size: 30px;
+    font: bold;
+    color: white;
+    columns: 200px 1;
+    text-align: center;
+}
+
+.renovable-plant-image {
+    height: 75%;
+    width: 20%;
+    position: relative;
+    filter: brightness(70%);
+    box-shadow: black;
+}
+
+.renovable-plant-image-text {
+    position: absolute;
+    top: 300px;
+    left: 640px;
+    font-size: 30px;
+    font: bold;
+    color: white;
+}
+
+
 
 
