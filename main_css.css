@@ -9,6 +9,7 @@ html {
 body {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 
@@ -107,7 +108,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    height: 670px;
 }
 
 .initial-phrase {
@@ -128,8 +129,11 @@ body {
 .general-information {
     background-color: #228B22;
     width: 100%;
-    height: 600px;
+    height: 640x;
     padding: 50px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .installator-container {
@@ -139,7 +143,7 @@ body {
 .installator-container img {
     max-width: 300px;
     height: 500px;
-    filter: brightness(75%);
+    filter: brightness(65%);
 }
 
 .installator-image-text {
@@ -147,6 +151,44 @@ body {
     top: 14rem;
     left: 1rem;
     color: #ffffff;
-    font-size: 23px ;
+    font-size: 23px;
 }
+
+.renewable-plant-container{
+    position: relative;
+}
+
+.renewable-plant-container img {
+    max-width: 300px;
+    height: 500px;
+    filter: brightness(65%);
+}
+
+.renewable-plant-image-text {
+    position: absolute;
+    top: 14rem;
+    left: 2.5rem;
+    color: #ffffff;
+    font-size: 23px;
+}
+
+.renewable-community-container {
+    position: relative;
+}
+
+.renewable-community-container img {
+    max-width: 300px;
+    height: 500px;
+    filter: brightness(65%);
+}
+
+.renewable-community-image-text {
+    position: absolute;
+    top: 13rem;
+    left: 3rem;
+    color: #ffffff;
+    font-size: 23px;
+    width: 200px;
+}
+
 
