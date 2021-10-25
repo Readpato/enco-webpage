@@ -10,11 +10,6 @@ $toggleButton.addEventListener('click', () => {
 
 // Function that hides other general information images when and shows respective information when clicked upon
 
-/*
-    Work on branch: Try to put everything a single div so we can just adress it with a single code line
-
-*/
-
 const $installatorContainer = document.querySelector('.installator-container');
 const $renewablePlantContainer = document.querySelector('.renewable-plant-container');
 const $renewableCommunityContainer = document.querySelector('.renewable-community-container');

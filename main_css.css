@@ -197,6 +197,18 @@ body {
     cursor: pointer;
 }
 
+.installator-information-text h4 {
+    text-decoration: underline;
+}
+
+
+.installator-information-text {
+    color: white;
+    font-size: 25px;
+}
+
+
+
 
 .hidden {
     display: none;
