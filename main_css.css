@@ -136,7 +136,8 @@ body {
 }
 
 .generalInformation img {
-    margin: 50px 
+    margin: 50px;
+    cursor: pointer;
 }
 
 .generalInformation-container {
@@ -162,6 +163,7 @@ body {
     font-size: 30px;
     font: bold;
     color: white;
+
 }
 
 .community-image {
@@ -211,6 +213,9 @@ body {
     color: white;
 }
 
+.hidden {
+    display: none;
+}
 
 
 
