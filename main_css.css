@@ -193,6 +193,7 @@ body {
 
 
 .general-information img:hover {
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 6px 6px 10px black;
+    cursor: pointer;
 }
 
