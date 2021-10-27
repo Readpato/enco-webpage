@@ -127,7 +127,7 @@ body {
 }
 
 .general-information {
-    background-color: #228B22;
+    background-color:   #FD7F52;
     width: 100%;
     height: 640x;
     padding: 50px;
@@ -206,9 +206,6 @@ body {
     color: white;
     font-size: 25px;
 }
-
-
-
 
 .hidden {
     display: none;
