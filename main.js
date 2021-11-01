@@ -14,11 +14,18 @@ const $installatorContainer = document.querySelector('.installator-container');
 const $renewablePlantContainer = document.querySelector('.renewable-plant-container');
 const $renewableCommunityContainer = document.querySelector('.renewable-community-container');
 const $installatorInformationText = document.querySelector('.installator-information-text');
+const $communityinformationtext = document.querySelector('.community-information-text');
 
 $installatorContainer.onclick = function() {
     $renewablePlantContainer.classList.toggle('hidden');
     $renewableCommunityContainer.classList.toggle('hidden');  
     $installatorInformationText.classList.toggle('hidden');
     
+}
+
+$renewableCommunityContainer.onclick = function () {
+    $renewablePlantContainer.classList.toggle('hidden');
+    $installatorContainer.classList.toggle('hidden');
+    $communityinformationtext.classList.toggle('hidden');
 }
 
