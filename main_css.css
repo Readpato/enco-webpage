@@ -1,213 +1,224 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
 
-
 .topNavigationBar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #228B22;
-    color: white;
-    font-size: 20px;
-    position: fixed;
-    z-index: 2;
-    width: 100%;
-    border-bottom: 1.5px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #228b22;
+  color: white;
+  font-size: 20px;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  border-bottom: 1.5px solid black;
 }
 
 .enCo-Logo {
-    font-size: 1.5rem;
-    margin: .5rem;
+  font-size: 1.5rem;
+  margin: 0.5rem;
 }
 
 .navigationBar-links ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
-.navigationBar-links li { 
-    list-style: none;
+.navigationBar-links li {
+  list-style: none;
 }
 
 .navigationBar-links li a {
-    text-decoration: none;
-    color: white;
-    padding: 1rem;
-    display: block;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  display: block;
 }
 
 .navigationBar-links li:hover {
-    background-color: yellowgreen;
+  background-color: yellowgreen;
 }
 
 .toggle-button {
-    position: absolute;
-    top: .75rem;
-    right: 1rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
 }
 
 .toggle-button .bar {
-    height: 3px;
-    width: 100%;
-    background-color: white;
-    border-radius: 10px;
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
 }
 
 @media (max-width: 950px) {
-    .toggle-button {
-        display: flex;
-    }
+  .toggle-button {
+    display: flex;
+  }
 
-    .navigationBar-links {
-        display: none;
-        width: 100%;
-    }
+  .navigationBar-links {
+    display: none;
+    width: 100%;
+  }
 
-    .topNavigationBar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+  .topNavigationBar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
-    .navigationBar-links ul {
-        width: 100%;
-        flex-direction: column;
-    }
+  .navigationBar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
 
-    .navigationBar-links li {
-        text-align: center;
-    }
+  .navigationBar-links li {
+    text-align: center;
+  }
 
-    .navigationBar-links li a {
-        padding: .5rem .1rem;
-    }
+  .navigationBar-links li a {
+    padding: 0.5rem 0.1rem;
+  }
 
-    .navigationBar-links.active {
-        display: flex;
-    }
+  .navigationBar-links.active {
+    display: flex;
+  }
 }
 
-
 .initial-greeting {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 670px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 670px;
 }
 
 .initial-phrase {
-    animation-duration: 3s;
+  animation-duration: 3s;
 }
 
 .mainCompanyTitle {
-    animation-duration: 4s;
-    position: relative;
-    left: 30px;
-    font-size: 2rem;
+  animation-duration: 4s;
+  position: relative;
+  left: 30px;
+  font-size: 2rem;
 }
 
 .initial-image {
-    right: 200px;
+  right: 200px;
 }
 
 .general-information {
-    background-color:   #FD7F52;
-    width: 100%;
-    height: 640x;
-    padding: 50px;
-    display: inline-flex;
-    justify-content: space-around;
-    align-items: center;
+  background-color: #fd7f52;
+  width: 100%;
+  height: 640x;
+  padding: 50px;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .installator-container {
-    position: relative;
+  position: relative;
 }
 
 .installator-container img {
-    max-width: 300px;
-    height: 500px;
-    filter: brightness(65%);
+  max-width: 300px;
+  height: 500px;
+  filter: brightness(65%);
 }
 
 .installator-image-text {
-    position: absolute;
-    top: 14rem;
-    left: 1rem;
-    color: #ffffff;
-    font-size: 23px;
+  position: absolute;
+  top: 14rem;
+  left: 2rem;
+  color: #ffffff;
+  font-size: 23px;
 }
 
-.renewable-plant-container{
-    position: relative;
+.renewable-plant-container {
+  position: relative;
 }
 
 .renewable-plant-container img {
-    max-width: 300px;
-    height: 500px;
-    filter: brightness(65%);
+  max-width: 300px;
+  height: 500px;
+  filter: brightness(65%);
 }
 
 .renewable-plant-image-text {
-    position: absolute;
-    top: 14rem;
-    left: 2.5rem;
-    color: #ffffff;
-    font-size: 23px;
+  position: absolute;
+  top: 14rem;
+  left: 2.5rem;
+  color: #ffffff;
+  font-size: 23px;
 }
 
 .renewable-community-container {
-    position: relative;
+  position: relative;
 }
 
 .renewable-community-container img {
-    max-width: 300px;
-    height: 500px;
-    filter: brightness(65%);
+  max-width: 300px;
+  height: 500px;
+  filter: brightness(65%);
 }
 
 .renewable-community-image-text {
-    position: absolute;
-    top: 13rem;
-    left: 3rem;
-    color: #ffffff;
-    font-size: 23px;
-    width: 200px;
+  position: absolute;
+  top: 13rem;
+  left: 3rem;
+  color: #ffffff;
+  font-size: 23px;
+  width: 200px;
 }
 
-
 .general-information img:hover {
-    box-shadow: 6px 6px 10px black;
-    cursor: pointer;
+  box-shadow: 6px 6px 10px black;
+  cursor: pointer;
 }
 
 .installator-information-text h4 {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-
 .installator-information-text {
-    color: white;
-    font-size: 25px;
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.installator-section-redirect {
+  background: #ff9900;
+  border: 1px solid #ffffff;
+  border-radius: 11px;
+  padding: 20px 45px;
+  color: #ffffff;
+  display: inline-block;
+  font: normal bold 26px/1 "Roboto", sans-serif;
+  text-align: center;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
-
