@@ -17,13 +17,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #228b22;
+  background-color: #4aad52;
   color: white;
   font-size: 20px;
   position: fixed;
   z-index: 2;
   width: 100%;
-  border-bottom: 1.5px solid black;
+  border-bottom: 1px solid black;
 }
 
 .enCo-Logo {
@@ -126,7 +126,7 @@ body {
 }
 
 .general-information {
-  background-color: #fd7f52;
+  background-color: #cc5803;
   width: 100%;
   height: 640x;
   padding: 50px;
@@ -155,6 +155,7 @@ body {
 
 .renewable-plant-container {
   position: relative;
+  display: none;
 }
 
 .renewable-plant-container img {
@@ -209,14 +210,18 @@ body {
 }
 
 .installator-section-redirect {
-  background: #ff9900;
-  border: 1px solid #ffffff;
+  background: #fa7921;
+  border: 0.5px solid #ffffff;
   border-radius: 11px;
   padding: 20px 45px;
   color: #ffffff;
   display: inline-block;
   font: normal bold 26px/1 "Roboto", sans-serif;
   text-align: center;
+}
+
+.installator-section-redirect:hover {
+  background-color: #ffb627;
 }
 
 .hidden {
