@@ -224,6 +224,15 @@ body {
   background-color: #ffb627;
 }
 
+.community-information-text {
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .hidden {
   display: none;
 }
