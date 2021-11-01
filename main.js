@@ -10,23 +10,15 @@ $toggleButton.addEventListener('click', () => {
 
 // Function that hides other general information images when and shows respective information when clicked upon
 
-/*
-    Work on branch: Try to put everything a single div so we can just adress it with a single code line
+const $installatorContainer = document.querySelector('.installator-container');
+const $renewablePlantContainer = document.querySelector('.renewable-plant-container');
+const $renewableCommunityContainer = document.querySelector('.renewable-community-container');
+const $installatorInformationText = document.querySelector('.installator-information-text');
 
-*/
-
-const $installatorImage = document.querySelector('.installator-image');
-const $installatorimagetext = document.querySelector('.installator-image-text');
-const $renovablePlantImage = document.querySelector('.renovable-plant-image');
-const $renovablePlantImageText = document.querySelector('.renovable-plant-image-text');
-const $communityImage = document.querySelector('.community-image');
-const $communityImageText = document.querySelector('.community-image-text');
-
-
-$installatorImage.onclick = function() {
-    $renovablePlantImage.classList.toggle('hidden');
-    $renovablePlantImageText.classList.toggle('hidden')
-    $communityImage.classList.toggle('hidden');
-    $communityImageText.classList.toggle('hidden');   
+$installatorContainer.onclick = function() {
+    $renewablePlantContainer.classList.toggle('hidden');
+    $renewableCommunityContainer.classList.toggle('hidden');  
+    $installatorInformationText.classList.toggle('hidden');
+    
 }
 
