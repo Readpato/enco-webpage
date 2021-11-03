@@ -23,7 +23,6 @@ body {
   position: fixed;
   z-index: 2;
   width: 100%;
-  border-bottom: 1px solid black;
 }
 
 .enCo-Logo {
@@ -131,12 +130,13 @@ body {
   height: 640x;
   padding: 50px;
   display: inline-flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
 .installator-container {
   position: relative;
+  margin: 5px;
 }
 
 .installator-container img {
@@ -174,6 +174,7 @@ body {
 
 .renewable-community-container {
   position: relative;
+  margin: 5px;
 }
 
 .renewable-community-container img {
@@ -184,8 +185,8 @@ body {
 
 .renewable-community-image-text {
   position: absolute;
-  top: 13rem;
-  left: 3rem;
+  top: 14rem;
+  left: 4rem;
   color: #ffffff;
   font-size: 23px;
   width: 200px;
@@ -221,6 +222,34 @@ body {
 }
 
 .installator-section-redirect:hover {
+  background-color: #ffb627;
+}
+
+.community-information-text {
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.community-information-text h4 {
+  text-decoration: underline;
+}
+
+.community-section-redirect {
+  background: #fa7921;
+  border: 0.5px solid #ffffff;
+  border-radius: 11px;
+  padding: 20px 45px;
+  color: #ffffff;
+  display: inline-block;
+  font: normal bold 26px/1 "Roboto", sans-serif;
+  text-align: center;
+}
+
+.community-section-redirect:hover {
   background-color: #ffb627;
 }
 
