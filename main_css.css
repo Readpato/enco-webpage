@@ -112,6 +112,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 670px;
 }
 
@@ -280,13 +281,33 @@ body {
   display: grid;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 100%;
   min-height: 50vh;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas:
-    "box1 box2"
-    "box3 box3";
+    "box3 box3"
+    "box1 box2";
+  margin: 1rem 5rem;
+  border: 2px solid black;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter-form label {
+  width: 100%;
 }
 
 .box1 {
