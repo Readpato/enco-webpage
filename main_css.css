@@ -263,8 +263,9 @@ body {
 
 .community-section-redirect:hover {
   background-color: #ffb627;
-  transition-delay: 250ms;
 }
+
+/* Contact Section */
 
 .hidden {
   display: none;
