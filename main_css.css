@@ -287,6 +287,7 @@ body {
     "box3 box3";
   margin: 1rem 5rem;
   border-radius: 2rem;
+  column-gap: 1rem;
 }
 
 .newsletter {
@@ -299,23 +300,39 @@ body {
 .newsletter-form {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
+  align-items: cefnter;
   position: relative;
 }
 
 .newsletter-form input {
   border: none;
-  width: 100%;
+  width: 15.4rem;
   height: 100%;
   padding-top: 20px;
   font-size: 16px;
-  border: none;
 }
 
-.newsletter-form label {
-  width: 100%;
+.newsletter-form .newsletter-name-label {
+  width: 15.4rem;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid black;
 }
+
+.newsletter-form .newsletter-name-label::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 15.4rem;
+  border-bottom: 3px solid #88b04b;
+  left: 0px;
+  bottom: -1px;
+}
+
 .contact-image {
   display: flex;
   justify-content: flex-start;
