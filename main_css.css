@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -130,8 +131,6 @@ body {
 /* GENERAL INFORMATION SECTION */
 
 .general-information {
-  background: #76b852;
-  background: -webkit-linear-gradient(to right, #76b852, #8dc26f);
   background: linear-gradient(to right, #76b852, #8dc26f);
   width: 100%;
   min-height: 40vh;
@@ -227,8 +226,8 @@ body {
   border-radius: 1rem;
   padding: 1rem 1rem;
   color: #ffffff;
-  font: normal bold 26px/1 "Roboto", sans-serif;
   text-align: center;
+  font-size: 1.5rem;
   margin-top: 1rem;
 }
 
@@ -255,9 +254,9 @@ body {
   border-radius: 1rem;
   padding: 1rem 1rem;
   color: #ffffff;
-  font: normal bold 26px/1 "Roboto", sans-serif;
   text-align: center;
   margin-top: 1rem;
+  font-size: 1.5rem;
 }
 
 .community-section-redirect:hover {
@@ -284,16 +283,16 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas:
-    "box3 box3"
-    "box1 box2";
+    "box1 box2"
+    "box3 box3";
   margin: 1rem 5rem;
-  border: 2px solid black;
+  border-radius: 2rem;
 }
 
 .newsletter {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   flex-direction: column;
 }
 
@@ -302,12 +301,26 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-right: 4.5rem;
 }
 
 .newsletter-form label {
   width: 100%;
 }
 
+.newsletter-form input {
+  border: none;
+  width: 100%;
+  border-radius: 1rem;
+  padding: 0.2rem;
+  border: 1px solid black;
+}
+
+.contact-image {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
 .box1 {
   grid-area: box1;
 }
