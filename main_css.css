@@ -299,23 +299,23 @@ body {
 .newsletter-form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  margin-right: 4.5rem;
-}
-
-.newsletter-form label {
-  width: 100%;
+  position: relative;
 }
 
 .newsletter-form input {
   border: none;
   width: 100%;
-  border-radius: 1rem;
-  padding: 0.2rem;
-  border: 1px solid black;
+  height: 100%;
+  padding-top: 20px;
+  font-size: 16px;
+  border: none;
 }
 
+.newsletter-form label {
+  width: 100%;
+}
 .contact-image {
   display: flex;
   justify-content: flex-start;
