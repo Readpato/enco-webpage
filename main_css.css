@@ -306,6 +306,7 @@ body {
   height: auto;
   width: 300px;
   overflow: hidden;
+  margin: 1em 0;
 }
 
 .name-container {
@@ -360,6 +361,116 @@ body {
 
 #newsletterName:focus + .newsletterNameLabel::after,
 #newsletterName:valid + .newsletterNameLabel::after {
+  transform: translateX(0%);
+}
+
+.surname-container {
+  position: relative;
+  width: 100%;
+}
+
+#newsletterSurname {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.newsletterSurnameLabel {
+  position: absolute;
+  bottom: 0px;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid black;
+}
+
+.newsletterSurnameLabel::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-bottom: 3px solid #88b04b;
+  left: 0px;
+  bottom: -1px;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+
+.content-surname {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+
+#newsletterSurname:focus + .newsletterSurnameLabel .content-surname,
+#newsletterSurname:valid + .newsletterSurnameLabel .content-surname {
+  transform: translateY(-65%);
+  color: #88b04b;
+  font-weight: 400;
+}
+
+#newsletterSurname:focus + .newsletterSurnameLabel::after,
+#newsletterSurname:valid + .newsletterSurnameLabel::after {
+  transform: translateX(0%);
+}
+
+.email-container {
+  position: relative;
+  width: 100%;
+}
+
+#newsletterEmail {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.newsletterEmailLabel {
+  position: absolute;
+  bottom: 0px;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid black;
+}
+
+.newsletterEmailLabel::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-bottom: 3px solid #88b04b;
+  left: 0px;
+  bottom: -1px;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+
+.content-email {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+
+#newsletterEmail:focus + .newsletterEmailLabel .content-email,
+#newsletterEmail:valid + .newsletterEmailLabel .content-email {
+  transform: translateY(-65%);
+  color: #88b04b;
+  font-weight: 400;
+}
+
+#newsletterEmail:focus + .newsletterEmailLabel::after,
+#newsletterEmail:valid + .newsletterEmailLabel::after {
   transform: translateX(0%);
 }
 
