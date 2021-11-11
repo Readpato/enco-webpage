@@ -305,6 +305,7 @@ body {
   position: relative;
   height: auto;
   width: 300px;
+  overflow: hidden;
 }
 
 .name-container {
@@ -318,6 +319,7 @@ body {
   padding-top: 20px;
   font-size: 16px;
   border: none;
+  outline: none;
 }
 
 .newsletterNameLabel {
@@ -339,11 +341,26 @@ body {
   left: 0px;
   bottom: -1px;
   transform: translateX(-100%);
+  transition: transform 0.3s ease;
 }
 
 .content-name {
   position: absolute;
-  bottom: 2px;
+  bottom: 5px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+
+#newsletterName:focus + .newsletterNameLabel .content-name,
+#newsletterName:valid + .newsletterNameLabel .content-name {
+  transform: translateY(-65%);
+  color: #88b04b;
+  font-weight: 400;
+}
+
+#newsletterName:focus + .newsletterNameLabel::after,
+#newsletterName:valid + .newsletterNameLabel::after {
+  transform: translateX(0%);
 }
 
 .contact-image {
