@@ -313,6 +313,14 @@ body {
   font-size: 16px;
 }
 
+.newsletterName {
+  border: none;
+  width: 15.4rem;
+  height: 100%;
+  padding-top: 20px;
+  font-size: 16px;
+}
+
 .newsletter-form .newsletter-name-label {
   width: 15.4rem;
   position: absolute;
