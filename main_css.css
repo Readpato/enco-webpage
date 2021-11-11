@@ -2,16 +2,14 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-  margin: 0;
-  padding: 0;
   scroll-behavior: smooth;
 }
 
@@ -133,8 +131,6 @@ body {
 /* GENERAL INFORMATION SECTION */
 
 .general-information {
-  background: #76b852;
-  background: -webkit-linear-gradient(to right, #76b852, #8dc26f);
   background: linear-gradient(to right, #76b852, #8dc26f);
   width: 100%;
   min-height: 40vh;
@@ -154,6 +150,7 @@ body {
   max-width: 300px;
   height: 500px;
   filter: brightness(65%);
+  border-radius: 2rem;
 }
 
 .installator-image-text {
@@ -192,6 +189,7 @@ body {
   max-width: 300px;
   height: 500px;
   filter: brightness(65%);
+  border-radius: 2rem;
 }
 
 .renewable-community-image-text {
@@ -228,8 +226,8 @@ body {
   border-radius: 1rem;
   padding: 1rem 1rem;
   color: #ffffff;
-  font: normal bold 26px/1 "Roboto", sans-serif;
   text-align: center;
+  font-size: 1.5rem;
   margin-top: 1rem;
 }
 
@@ -256,9 +254,9 @@ body {
   border-radius: 1rem;
   padding: 1rem 1rem;
   color: #ffffff;
-  font: normal bold 26px/1 "Roboto", sans-serif;
   text-align: center;
   margin-top: 1rem;
+  font-size: 1.5rem;
 }
 
 .community-section-redirect:hover {
@@ -266,6 +264,232 @@ body {
 }
 
 /* Contact Section */
+
+.contact {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 50vh;
+}
+
+.grid-container-contact {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 50vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "box1 box2"
+    "box3 box3";
+  margin: 1rem 5rem;
+  column-gap: 1rem;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  height: auto;
+  width: 300px;
+  overflow: hidden;
+  margin: 1em 0;
+}
+
+.name-container {
+  position: relative;
+  width: 100%;
+}
+
+#newsletterName {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.newsletterNameLabel {
+  position: absolute;
+  bottom: 0px;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid black;
+}
+
+.newsletterNameLabel::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-bottom: 3px solid #88b04b;
+  left: 0px;
+  bottom: -1px;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+
+.content-name {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+
+#newsletterName:focus + .newsletterNameLabel .content-name,
+#newsletterName:valid + .newsletterNameLabel .content-name {
+  transform: translateY(-65%);
+  color: #88b04b;
+  font-weight: 400;
+}
+
+#newsletterName:focus + .newsletterNameLabel::after,
+#newsletterName:valid + .newsletterNameLabel::after {
+  transform: translateX(0%);
+}
+
+.surname-container {
+  position: relative;
+  width: 100%;
+}
+
+#newsletterSurname {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.newsletterSurnameLabel {
+  position: absolute;
+  bottom: 0px;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid black;
+}
+
+.newsletterSurnameLabel::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-bottom: 3px solid #88b04b;
+  left: 0px;
+  bottom: -1px;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+
+.content-surname {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+
+#newsletterSurname:focus + .newsletterSurnameLabel .content-surname,
+#newsletterSurname:valid + .newsletterSurnameLabel .content-surname {
+  transform: translateY(-65%);
+  color: #88b04b;
+  font-weight: 400;
+}
+
+#newsletterSurname:focus + .newsletterSurnameLabel::after,
+#newsletterSurname:valid + .newsletterSurnameLabel::after {
+  transform: translateX(0%);
+}
+
+.email-container {
+  position: relative;
+  width: 100%;
+}
+
+#newsletterEmail {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.newsletterEmailLabel {
+  position: absolute;
+  bottom: 0px;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid black;
+}
+
+.newsletterEmailLabel::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-bottom: 3px solid #88b04b;
+  left: 0px;
+  bottom: -1px;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+
+.content-email {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+
+#newsletterEmail:focus + .newsletterEmailLabel .content-email,
+#newsletterEmail:valid + .newsletterEmailLabel .content-email {
+  transform: translateY(-65%);
+  color: #88b04b;
+  font-weight: 400;
+}
+
+#newsletterEmail:focus + .newsletterEmailLabel::after,
+#newsletterEmail:valid + .newsletterEmailLabel::after {
+  transform: translateX(0%);
+}
+
+.contact-image {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.box1 {
+  grid-area: box1;
+}
+
+.box2 {
+  grid-area: box2;
+}
+
+.box3 {
+  grid-area: box3;
+}
 
 .hidden {
   display: none;
