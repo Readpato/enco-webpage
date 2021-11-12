@@ -478,6 +478,20 @@ body {
   transform: translateX(0%);
 }
 
+.submitNewsletter {
+  align-self: center;
+  margin: 1rem 0;
+  padding: 5px;
+  background-color: #88b04b;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
+
+.submitNewsletter:hover {
+  background-color: #6c8c3c;
+}
+
 .contact-image {
   display: flex;
   justify-content: flex-start;
