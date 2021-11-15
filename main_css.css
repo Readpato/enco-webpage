@@ -537,6 +537,31 @@ body {
   height: 2.3em;
 }
 
+.facebook-logo {
+  filter: invert(38%) sepia(38%) saturate(6170%) hue-rotate(203deg)
+    brightness(98%) contrast(94%);
+}
+
+.instagram-logo {
+  filter: invert(34%) sepia(82%) saturate(1880%) hue-rotate(325deg)
+    brightness(93%) contrast(93%);
+}
+
+.linkedin-logo {
+  filter: invert(20%) sepia(53%) saturate(4375%) hue-rotate(199deg)
+    brightness(102%) contrast(92%);
+}
+
+.reddit-logo {
+  filter: invert(31%) sepia(100%) saturate(3141%) hue-rotate(4deg)
+    brightness(105%) contrast(103%);
+}
+
+.twitter-logo {
+  filter: invert(58%) sepia(46%) saturate(4132%) hue-rotate(176deg)
+    brightness(96%) contrast(98%);
+}
+
 /* *Footer Section */
 
 hr {
