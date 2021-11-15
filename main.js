@@ -29,3 +29,24 @@ $renewableCommunityContainer.onclick = function () {
     $communityinformationtext.classList.toggle('hidden');
 }
 
+
+// * Declarations for the carousel
+
+const carouselSlide = document.querySelector('.carousel-slide');
+const carouselImages = document.querySelectorAll('.carousel-slide img');
+const carouselContainer = document.querySelector('.carousel-container');
+
+
+// * Buttons for the carousel
+
+const previousButton = document.querySelector('#previousButton');
+const nextButton = document.querySelector('#nextButton');
+
+
+// *Counter
+
+let counter = 1;
+const size = carouselImages[0].clientWidth;
+
+carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
+

@@ -109,14 +109,14 @@ body {
 /* *Carousel */
 
 .carousel-container {
-  width: 1920px;
+  width: 100%;
   margin: auto;
   border: 5px solid black;
 }
 
 .carousel-slide {
   display: flex;
-  width: 100%;
+  width: 1920px;
   height: 1080px;
 }
 
