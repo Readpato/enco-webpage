@@ -222,11 +222,11 @@ body {
   margin-left: 2rem;
 }
 
-.installator-section-redirect {
+.installator-section-redirect-button {
   background: #fa7921;
   border: 0.1rem solid #ffffff;
   border-radius: 1rem;
-  padding: 1rem 1rem;
+  padding: 0.8rem;
   color: #ffffff;
   text-align: center;
   font-size: 1.5rem;
@@ -250,11 +250,11 @@ body {
   text-decoration: underline;
 }
 
-.community-section-redirect {
+.community-section-redirect-button {
   background: #fa7921;
   border: 0.1rem solid #ffffff;
   border-radius: 1rem;
-  padding: 1rem 1rem;
+  padding: 0.8rem;
   color: #ffffff;
   text-align: center;
   margin-top: 1rem;
