@@ -147,8 +147,8 @@ body {
   z-index: 2;
   position: absolute;
   top: 30%;
-  right: 50%;
-  background-color: rgba(141, 194, 111, 0.95);
+  left: 15%;
+  background-color: rgba(119, 176, 75, 1);
   padding: 0.5rem;
   border-radius: 1rem;
   text-shadow: black;
@@ -156,18 +156,31 @@ body {
 }
 
 .installator-section-redirect {
-  background: #fa7921;
-  border: 0.1rem solid #ffffff;
+  background-color: rgba(233, 154, 16, 1);
   border-radius: 1rem;
   padding: 0.8rem;
-  color: #ffffff;
+  color: white;
   text-align: center;
-  font-size: 1.5rem;
-  margin-top: 1rem;
+  font-size: 1.5em;
   text-decoration: none;
   position: absolute;
-  top: 40%;
-  z-index: 4;
+  z-index: 2;
+  left: 15%;
+  top: 39%;
+}
+
+.community-section-redirect {
+  background-color: rgba(233, 154, 16, 1);
+  border-radius: 1rem;
+  padding: 0.8rem;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  text-decoration: none;
+  position: absolute;
+  z-index: 2;
+  left: 31%;
+  top: 39%;
 }
 
 /* *INITIAL GREETING WITH ANIMATIONS */
