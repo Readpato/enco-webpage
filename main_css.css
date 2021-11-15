@@ -523,6 +523,19 @@ body {
   height: 300px;
 }
 
+.social-media-links {
+  display: flex;
+  width: 25%;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.social-media-links img {
+  width: 100%;
+  height: 2.3em;
+}
+
 /* *Hidden Displays */
 
 .hidden {
