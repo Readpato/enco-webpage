@@ -222,7 +222,7 @@ body {
   margin-left: 2rem;
 }
 
-.installator-section-redirect-button {
+.installator-section-redirect {
   background: #fa7921;
   border: 0.1rem solid #ffffff;
   border-radius: 1rem;
@@ -231,6 +231,7 @@ body {
   text-align: center;
   font-size: 1.5rem;
   margin-top: 1rem;
+  text-decoration: none;
 }
 
 .installator-section-redirect:hover {
@@ -250,7 +251,7 @@ body {
   text-decoration: underline;
 }
 
-.community-section-redirect-button {
+.community-section-redirect {
   background: #fa7921;
   border: 0.1rem solid #ffffff;
   border-radius: 1rem;
@@ -259,6 +260,7 @@ body {
   text-align: center;
   margin-top: 1rem;
   font-size: 1.5rem;
+  text-decoration: none;
 }
 
 .community-section-redirect:hover {
