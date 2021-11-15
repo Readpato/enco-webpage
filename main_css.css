@@ -21,7 +21,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #4aad52;
+  background: #6fb04b;
   color: white;
   font-size: 20px;
   position: fixed;
