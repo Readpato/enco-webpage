@@ -157,10 +157,10 @@ body {
 
 .installator-image-text {
   position: absolute;
-  top: 14rem;
+  top: 14.5rem;
   left: 2rem;
   color: #ffffff;
-  font-size: 23px;
+  font-size: 1.35em;
 }
 
 .renewable-plant-container {
@@ -196,10 +196,10 @@ body {
 
 .renewable-community-image-text {
   position: absolute;
-  top: 14rem;
-  left: 4rem;
+  top: 14.5rem;
+  left: 3.5rem;
   color: #ffffff;
-  font-size: 23px;
+  font-size: 1.35em;
   width: 200px;
 }
 
