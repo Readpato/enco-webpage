@@ -567,11 +567,6 @@ hr {
   text-decoration: none;
 }
 
-.facebook-logo {
-  filter: invert(34%) sepia(90%) saturate(2758%) hue-rotate(203deg)
-    brightness(98%) contrast(94%);
-}
-
 .copyright {
   margin: 1rem 0;
 }
