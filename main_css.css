@@ -16,7 +16,6 @@ html {
 body {
   scroll-behavior: smooth;
 }
-
 /* *NAVIGATION BAR  */
 
 .topNavigationBar {
@@ -109,12 +108,23 @@ body {
 }
 
 /* *Landing Page */
+
+.container {
+  display: flex;
+  flex-shrink: 1;
+}
+
+.main-greeting {
+  width: 100%;
+  position: relative;
+}
+
 .landing-page {
   position: relative;
 }
 
 .landing-image {
-  width: 100%;
+  max-width: 100%;
 }
 
 .custom-shape-divider-bottom-1637753276 {
@@ -149,6 +159,7 @@ body {
   padding: 0.5rem;
   border-radius: 1rem;
   text-shadow: black;
+  text-align: center;
   font-size: 2.2em;
 }
 
@@ -170,6 +181,7 @@ body {
   background-color: rgba(233, 154, 16, 1);
   border-radius: 1rem;
   padding: 0.8rem;
+  width: 24%;
   color: white;
   text-align: center;
   font-size: 1.5em;
@@ -189,7 +201,8 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  min-height: 50vh;
+  min-height: 300px;
+  margin: 0 auto;
 }
 
 .grid-container-contact {
@@ -199,7 +212,7 @@ body {
   width: 100%;
   min-height: 50vh;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 100px;
+  grid-template-rows: 1fr 0.2fr;
   grid-template-areas:
     "box1 box2"
     "box3 box3";
@@ -226,6 +239,7 @@ body {
   justify-content: flex-end;
   align-items: center;
   width: 100%;
+  min-width: 50%
   height: 100%;
 }
 
@@ -236,7 +250,7 @@ body {
   align-items: flex-start;
   position: relative;
   height: auto;
-  width: 300px;
+  width: 35%;
   overflow: hidden;
   margin: 1em 0;
 }
@@ -419,6 +433,7 @@ body {
 .submitNewsletter:hover {
   background-color: #6c8c3c;
 }
+
 
 /* *Contact Image */
 
