@@ -1,6 +1,8 @@
 /* *Main */
 
-* {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
@@ -106,40 +108,35 @@ body {
   }
 }
 
-/* *Carousel */
-
-.carousel-container {
-  width: 100%;
-  height: 950px;
-  margin: auto;
-  overflow: hidden;
+/* *Landing Page */
+.landing-page {
   position: relative;
 }
 
-.carousel-slide {
-  display: flex;
-  width: 1920px;
-  height: 1080px;
+.landing-image {
+  width: 100%;
 }
 
-#previousButton {
+.custom-shape-divider-bottom-1637753276 {
   position: absolute;
-  top: 50%;
-  z-index: 2;
-  left: 5%;
-  font-size: 45px;
-  color: white;
-  cursor: pointer;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
 
-#nextButton {
-  position: absolute;
-  top: 50%;
-  z-index: 2;
-  right: 4%;
-  font-size: 45px;
-  color: white;
-  cursor: pointer;
+.custom-shape-divider-bottom-1637753276 svg {
+  position: relative;
+  display: block;
+  width: calc(205% + 1.3px);
+  height: 289px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1637753276 .shape-fill {
+  fill: #ffffff;
 }
 
 .main-title {
@@ -182,6 +179,7 @@ body {
   left: 31%;
   top: 39%;
 }
+*/
 
 /* *Contact Section */
 
