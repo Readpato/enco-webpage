@@ -202,8 +202,43 @@ body {
   top: 46%;
   min-width: 150px;
 }
-*/
+*
+/* *General Information */
 
+.general-information-grid-container {
+  display: grid;
+  align-items: center;
+  place-content: center;
+  width: 100%;
+  min-height: 50vh;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "box1a box2a"
+    "box3a box4a";
+  margin: auto;
+  column-gap: 1rem;
+}
+.box1a {
+}
+.box2a {
+}
+.box3a {
+}
+.box4a {
+}
+
+.installator-image-wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.installator-image-png {
+  width: 60%;
+  margin: auto;
+  min-width: 375px;
+}
 /* *Contact Section */
 
 .contact {
