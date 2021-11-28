@@ -24,6 +24,7 @@ html {
 
 body {
   scroll-behavior: smooth;
+  height: 100vh;
 }
 /* *NAVIGATION BAR  */
 
@@ -345,6 +346,8 @@ body {
   background-color: #e99a10;
   color: #ffffff;
 }
+
+/* *Collaborators Section */
 
 /* *Contact Section */
 
@@ -816,5 +819,46 @@ hr {
     margin-top: 1rem;
     margin-bottom: 2rem;
     margin-left: 0.5rem;
+  }
+
+  .collaborators {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    height: auto;
+  }
+
+  .collaborators-wrapper {
+    width: 60%;
+  }
+
+  .collaborators-icons {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, minmax(100px, 1fr));
+    grid-template-areas:
+      "logo1 logo2"
+      "logo3 logo4";
+    width: 100%;
+    height: 50vh;
+    gap: 2rem;
+  }
+
+  .collaborator-logo-1 {
+    grid-area: logo1;
+  }
+  .collaborator-logo-2 {
+    grid-area: logo2;
+  }
+  .collaborator-logo-3 {
+    grid-area: logo3;
+  }
+  .collaborator-logo-4 {
+    grid-area: logo4;
   }
 }
