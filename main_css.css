@@ -366,7 +366,7 @@ body {
 }
 
 .collaborators-wrapper {
-  width: 100%;
+  width: 80%;
 }
 
 .collaborators-icons {
@@ -897,11 +897,11 @@ hr {
   .collaborators-header h2 {
     color: #ffffff;
     font-weight: 300;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 
   .collaborators-wrapper {
-    width: 60%;
+    width: 40%;
   }
 
   .collaborators-icons {
@@ -914,7 +914,7 @@ hr {
       "logo1 logo2"
       "logo3 logo4";
     width: 100%;
-    height: 50vh;
+    height: 30vh;
     gap: 1rem;
   }
   .collaborator-logo-1 {
