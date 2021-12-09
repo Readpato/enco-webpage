@@ -1,7 +1,15 @@
+.nav-wrapper {
+  background-color: #6fb04b;
+}
+
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
 }
 /*# sourceMappingURL=styles.css.map */
