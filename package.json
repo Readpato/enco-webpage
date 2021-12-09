@@ -1,0 +1,27 @@
+{
+  "name": "encowebpage",
+  "version": "1.0.0",
+  "description": "Website for Energia Collettiva",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Readpato/EnCoWebPage.git"
+  },
+  "keywords": [
+    "energia",
+    "collettiva",
+    "webpage"
+  ],
+  "author": "Patrick Raedler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Readpato/EnCoWebPage/issues"
+  },
+  "homepage": "https://github.com/Readpato/EnCoWebPage#readme",
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.2"
+  }
+}
