@@ -1,5 +1,6 @@
 @import "./variables";
 @import "./navigation-bar";
+@import "./header";
 
 * {
   margin: 0;
@@ -9,4 +10,8 @@
 
 body {
   font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-weight: 300;
 }
