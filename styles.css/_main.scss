@@ -1,0 +1,42 @@
+main {
+  width: 100%;
+
+  .general-information-row {
+    display: flex;
+    align-items: center;
+  }
+
+  .installator-button {
+    background-color: #ffffff;
+    color: $orange-color;
+    margin-top: 1rem;
+  }
+
+  .community-button {
+    background-color: #ffffff;
+    color: $orange-color;
+    margin-top: 1rem;
+  }
+
+  .installator-button:hover,
+  .community-button:hover {
+    background-color: $orange-color;
+    color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .community-column {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .general-information-row {
+    flex-direction: column;
+  }
+
+  .community-column {
+    text-align: left;
+  }
+}
