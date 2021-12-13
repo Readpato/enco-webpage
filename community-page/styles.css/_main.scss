@@ -1,0 +1,76 @@
+main {
+  width: 100%;
+
+  .general-information {
+    .general-information-row {
+      display: flex;
+      align-items: center;
+    }
+
+    .installator-button {
+      background-color: #ffffff;
+      color: $orange-color;
+      margin-top: 1rem;
+      border: 1px solid $orange-color;
+    }
+
+    .community-button {
+      background-color: #ffffff;
+      color: $orange-color;
+      margin-top: 1rem;
+      border: 1px solid $orange-color;
+    }
+
+    .installator-button:hover,
+    .community-button:hover {
+      background-color: $orange-color;
+      color: #ffffff;
+    }
+  }
+
+  .collaborators-section {
+    background-color: $collaborators-color;
+
+    h4 {
+      font-weight: 300;
+      padding-top: 2rem;
+    }
+
+    .collaborators-logos img {
+      filter: $collaborators-img-color;
+      padding: 2rem 0;
+      cursor: pointer;
+    }
+  }
+
+  .press-section {
+    background-color: $press-color;
+
+    h4 {
+      font-weight: 300;
+      padding-top: 2rem;
+    }
+
+    .press-logos img {
+      filter: $collaborators-img-color;
+      padding: 2rem 0;
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .community-column {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .general-information-row {
+    flex-direction: column;
+  }
+
+  .community-column {
+    text-align: left;
+  }
+}
