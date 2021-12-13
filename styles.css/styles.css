@@ -102,7 +102,7 @@ main .general-information .community-button:hover {
 }
 
 main .collaborators-section {
-  background-color: #4b8bb0;
+  background-color: #e99a10;
 }
 
 main .collaborators-section h4 {
@@ -118,7 +118,7 @@ main .collaborators-section .collaborators-logos img {
 }
 
 main .press-section {
-  background-color: #b04ba8;
+  background-color: #6fb04b;
 }
 
 main .press-section h4 {
@@ -185,6 +185,14 @@ main .newsletter button {
 
 main .newsletter button:hover {
   background-color: #edae40;
+}
+
+.page-footer {
+  background-color: #6fb04b;
+}
+
+.page-footer .glossary-link {
+  margin-top: 1rem;
 }
 
 * {
