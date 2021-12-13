@@ -1,5 +1,6 @@
 /* Main Colors of the Webpage */
 /* Specific Variables */
+/* Form Variables */
 .nav-wrapper {
   background-color: #6fb04b;
 }
@@ -148,6 +149,42 @@ main .press-section .press-logos img {
   .community-column {
     text-align: left;
   }
+}
+
+main .newsletter h5 {
+  margin-top: 5rem;
+}
+
+main .newsletter .input-field input[type="text"]:focus + label {
+  color: #e99a10;
+}
+
+main .newsletter .input-field .prefix.active {
+  color: #e99a10;
+}
+
+main .newsletter .input-field input[type="email"]:focus + label {
+  color: #e99a10;
+}
+
+main .newsletter .input-field input[type="text"]:focus {
+  border-bottom: 0.5px solid #e99a10;
+  -webkit-box-shadow: 0 1px 0 0 #e99a10;
+          box-shadow: 0 1px 0 0 #e99a10;
+}
+
+main .newsletter .input-field input[type="email"]:focus {
+  border-bottom: 0.5px solid #e99a10;
+  -webkit-box-shadow: 0 1px 0 0 #e99a10;
+          box-shadow: 0 1px 0 0 #e99a10;
+}
+
+main .newsletter button {
+  background-color: #e99a10;
+}
+
+main .newsletter button:hover {
+  background-color: #edae40;
 }
 
 * {
