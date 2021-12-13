@@ -1,0 +1,36 @@
+main {
+  .newsletter {
+    h5 {
+      margin-top: 5rem;
+    }
+    .input-field input[type="text"]:focus + label {
+      color: $orange-color;
+    }
+
+    .input-field .prefix.active {
+      color: $orange-color;
+    }
+
+    .input-field input[type="email"]:focus + label {
+      color: $orange-color;
+    }
+
+    .input-field input[type="text"]:focus {
+      border-bottom: 0.5px solid $orange-color;
+      box-shadow: 0 1px 0 0 $orange-color;
+    }
+
+    .input-field input[type="email"]:focus {
+      border-bottom: 0.5px solid $orange-color;
+      box-shadow: 0 1px 0 0 $orange-color;
+    }
+
+    button {
+      background-color: $orange-color;
+    }
+
+    button:hover {
+      background-color: #edae40;
+    }
+  }
+}
