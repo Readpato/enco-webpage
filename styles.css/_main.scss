@@ -1,27 +1,45 @@
 main {
   width: 100%;
 
-  .general-information-row {
-    display: flex;
-    align-items: center;
+  .general-information {
+    .general-information-row {
+      display: flex;
+      align-items: center;
+    }
+
+    .installator-button {
+      background-color: #ffffff;
+      color: $orange-color;
+      margin-top: 1rem;
+      border: 1px solid $orange-color;
+    }
+
+    .community-button {
+      background-color: #ffffff;
+      color: $orange-color;
+      margin-top: 1rem;
+      border: 1px solid $orange-color;
+    }
+
+    .installator-button:hover,
+    .community-button:hover {
+      background-color: $orange-color;
+      color: #ffffff;
+    }
   }
 
-  .installator-button {
-    background-color: #ffffff;
-    color: $orange-color;
-    margin-top: 1rem;
-  }
+  .collaborators-section {
+    background-color: $collaborators-color;
 
-  .community-button {
-    background-color: #ffffff;
-    color: $orange-color;
-    margin-top: 1rem;
-  }
+    h4 {
+      font-weight: 300;
+      padding-top: 2rem;
+    }
 
-  .installator-button:hover,
-  .community-button:hover {
-    background-color: $orange-color;
-    color: #ffffff;
+    .collaborators-logos img {
+      filter: $collaborators-img-color;
+      padding: 2rem 0;
+    }
   }
 }
 
