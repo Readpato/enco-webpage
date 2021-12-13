@@ -1,0 +1,213 @@
+/* Main Colors of the Webpage */
+/* Specific Variables */
+/* Form Variables */
+.nav-wrapper {
+  background-color: #6fb04b;
+}
+
+.header-wrapper {
+  background-image: url(/images/team-image.jpg);
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.header-wrapper header {
+  height: 70vh;
+}
+
+.header-wrapper .main-title h1 {
+  background-color: #6fb04b;
+  border-radius: 1rem;
+  padding: 0.5rem 0;
+}
+
+.header-wrapper .main-title a {
+  background-color: #e99a10;
+  padding: 0px;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.header-wrapper .main-title a:hover {
+  background-color: #edae40;
+}
+
+.header-wrapper .svg-waves {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .header-wrapper {
+    height: 75vh;
+  }
+  .header-wrapper .svg-waves {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+  }
+  .svg-waves {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .main-title .installator-button {
+    margin-bottom: 1rem;
+  }
+  .header-wrapper {
+    height: 80vh;
+  }
+}
+
+main {
+  width: 100%;
+}
+
+main .general-information .general-information-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .general-information .installator-button {
+  background-color: #ffffff;
+  color: #e99a10;
+  margin-top: 1rem;
+  border: 1px solid #e99a10;
+}
+
+main .general-information .community-button {
+  background-color: #ffffff;
+  color: #e99a10;
+  margin-top: 1rem;
+  border: 1px solid #e99a10;
+}
+
+main .general-information .installator-button:hover,
+main .general-information .community-button:hover {
+  background-color: #e99a10;
+  color: #ffffff;
+}
+
+main .collaborators-section {
+  background-color: #e99a10;
+}
+
+main .collaborators-section h4 {
+  font-weight: 300;
+  padding-top: 2rem;
+}
+
+main .collaborators-section .collaborators-logos img {
+  -webkit-filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(170deg) brightness(103%) contrast(101%);
+          filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(170deg) brightness(103%) contrast(101%);
+  padding: 2rem 0;
+  cursor: pointer;
+}
+
+main .press-section {
+  background-color: #6fb04b;
+}
+
+main .press-section h4 {
+  font-weight: 300;
+  padding-top: 2rem;
+}
+
+main .press-section .press-logos img {
+  -webkit-filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(170deg) brightness(103%) contrast(101%);
+          filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(170deg) brightness(103%) contrast(101%);
+  padding: 2rem 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .community-column {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .general-information-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .community-column {
+    text-align: left;
+  }
+}
+
+main .newsletter h5 {
+  margin-top: 5rem;
+}
+
+main .newsletter .input-field input[type="text"]:focus + label {
+  color: #e99a10;
+}
+
+main .newsletter .input-field .prefix.active {
+  color: #e99a10;
+}
+
+main .newsletter .input-field input[type="email"]:focus + label {
+  color: #e99a10;
+}
+
+main .newsletter .input-field input[type="text"]:focus {
+  border-bottom: 0.5px solid #e99a10;
+  -webkit-box-shadow: 0 1px 0 0 #e99a10;
+          box-shadow: 0 1px 0 0 #e99a10;
+}
+
+main .newsletter .input-field input[type="email"]:focus {
+  border-bottom: 0.5px solid #e99a10;
+  -webkit-box-shadow: 0 1px 0 0 #e99a10;
+          box-shadow: 0 1px 0 0 #e99a10;
+}
+
+main .newsletter button {
+  background-color: #e99a10;
+}
+
+main .newsletter button:hover {
+  background-color: #edae40;
+}
+
+.page-footer {
+  background-color: #6fb04b;
+}
+
+.page-footer .glossary-link {
+  margin-top: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-weight: 300;
+}
+/*# sourceMappingURL=styles.css.map */
