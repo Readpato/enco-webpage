@@ -1,0 +1,20 @@
+@import "./variables";
+@import "./navigation-bar";
+@import "./main";
+@import "./footer";
+@import "./newsletter";
+@import "./header";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-weight: 300;
+}
