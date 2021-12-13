@@ -39,6 +39,22 @@ main {
     .collaborators-logos img {
       filter: $collaborators-img-color;
       padding: 2rem 0;
+      cursor: pointer;
+    }
+  }
+
+  .press-section {
+    background-color: $press-color;
+
+    h4 {
+      font-weight: 300;
+      padding-top: 2rem;
+    }
+
+    .press-logos img {
+      filter: $collaborators-img-color;
+      padding: 2rem 0;
+      cursor: pointer;
     }
   }
 }
