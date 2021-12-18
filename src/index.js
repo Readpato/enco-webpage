@@ -12,13 +12,14 @@ document.addEventListener('DOMContentLoaded', function() {
   /* Form Validators */
 
 
-  function validateName(name){
-    const regEx = /^[a-z]{10}i$/;
-    
-    if(name === '') return 'The name field cannot be empty.';
-    if(regEx.test(name)) return 'The name you inserted is valid';
 
-    return true;
+  function validateName(userName){
+    const regEx = /^[A-z]+$/;
+    
+    if(userName.length === 0) return 'The name field cannot be empty.';
+    if(regEx.test(userName) === false) return 'The name you inserted is not valid.';
+
+    return false;
   }
 
 
