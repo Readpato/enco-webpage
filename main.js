@@ -8,3 +8,17 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
+
+  /* Form Validators */
+
+
+  function validateName(name){
+    const regEx = /^[a-z]{10}i$/;
+    
+    if(name === '') return 'The name field cannot be empty.';
+    if(regEx.test(name)) return 'The name you inserted is valid';
+
+    return true;
+  }
+
+
