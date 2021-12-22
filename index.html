@@ -22,7 +22,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/styles.css/styles.css" />
+    <link rel="stylesheet" href="styles.css/styles.css" />
     <title>Energia Collettiva</title>
   </head>
   <body>
@@ -180,26 +180,46 @@
       <section class="newsletter container">
         <h5 class="center-align">Want to know more? Join our Newsletter!</h5>
         <div class="row">
-          <form class="col s12">
+          <form class="col s12" name="form">
             <div class="row">
               <div class="input-field col l4 s12">
                 <i class="material-icons prefix">account_circle</i>
-                <input id="first_name" type="text" class="validate" />
+                <input
+                  id="first_name"
+                  type="text"
+                  class="validate"
+                  name="user-name"
+                />
                 <label for="first_name">First Name</label>
               </div>
               <div class="input-field col l4 s12">
                 <i class="material-icons prefix">account_circle</i>
-                <input id="last_name" type="text" class="validate" />
+                <input
+                  id="last_name"
+                  type="text"
+                  class="validate"
+                  name="user-last-name"
+                />
                 <label for="last_name">Last Name</label>
               </div>
               <div class="input-field col l4 s12">
                 <i class="material-icons prefix">email</i>
-                <input id="email" type="email" class="validate" />
+                <input
+                  id="email"
+                  type="email"
+                  class="validate"
+                  name="user-email"
+                />
                 <label for="email">Email</label>
               </div>
             </div>
             <div class="row">
-              <div class="col l4 push-l4 center-align s12 m">
+              <div class="col l4 push-l4 center-align s12">
+                <ul class="error-list"></ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col l4 push-l4 center-align s12">
                 <button
                   type="submit"
                   class="waves-effect waves-light btn z-depth-1"
@@ -315,7 +335,8 @@
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="main.js"></script>
     <script src="/node_modules/materialize-css/dist/js/materialize.min.js"></script>
+    <script src="./src/index.js"></script>
+    <script src="./src/unitary-tests.js"></script>
   </body>
 </html>
