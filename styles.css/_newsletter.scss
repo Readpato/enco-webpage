@@ -32,5 +32,15 @@ main {
     button:hover {
       background-color: #edae40;
     }
+
+    #error {
+      border-bottom: 0.5px solid $error-color;
+      box-shadow: 0 1px 0 0 $error-color;
+      color: $error-color;
+    }
+
+    .existing-error {
+      color: red;
+    }
   }
 }

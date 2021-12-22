@@ -7,7 +7,7 @@ function testNameValidation() {
     "The function validateName didn't check if the name of the user exceeds the maximum characters allowed."
     );
 
-    console.assert(validateName('J0hn') === 'The name you inserted is invalid. Try again.',
+    console.assert(validateName('J0hn') === 'The name you inserted is invalid.',
     "The function validateName didn't check if the user name is invalid."
     );
 };
@@ -21,7 +21,7 @@ function testLastNameValidation() {
     "The function validateLastName didn't check if the last name of the user exceeds the maximum characters allowed."
     );
 
-    console.assert(validateLastName('D0e') === 'The last name you inserted is invalid. Try again.',
+    console.assert(validateLastName('D0e') === 'The last name you inserted is invalid.',
     "The function validateLastName didn't check if the user last name is invalid."
     );
 };
@@ -31,7 +31,7 @@ function testValidateEmail(){
     "The function validateEmail didn't check if the email field is empty."
     );
 
-    console.assert(validateEmail('patoreadg.com') === 'The specified email is invalid. Try again.',
+    console.assert(validateEmail('patoreadg.com') === 'The specified email is invalid.',
     "The function validateEmail didn't check if the email is invalid."
     );
 }
