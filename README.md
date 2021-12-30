@@ -41,32 +41,32 @@ The website has four main pages. The main page, the "Get an Installation Page", 
 
 The main page is where the user can find more information about Enco and also to get redirected to other the other pages if the user wants to get more information
 
-<img  src="/" align="center">
+<img  src="https://github.com/Readpato/enco-webpage/blob/main/images/readme-images/main-page-readme-image.PNG" align="center">
 
 The "Get an Installation" page is where the user can inform itself about what kind of installations Enco provides to the client. How this installations work and the advantages of generating your own energy.
 
-<img  src="/" align="center">
+<img  src="https://github.com/Readpato/enco-webpage/blob/main/images/readme-images/get-installation-readme-image.PNG" align="center">
 
 The "EnCommunity" page allows the user to find nearby clients who already have an Enco installation in their homes and lets them connect with each other if they wish to share or sell their own produced energy.
 
-<img  src="/" align="center">
+<img  src="https://github.com/Readpato/enco-webpage/blob/main/images/readme-images/community-readme-image.PNG" align="center">
 
 The "About Us" page is where the user can find out more information about who composes the Energia Colletiva team and also a little information about them.
 
-<img  src="/" align="center">
+<img  src="https://github.com/Readpato/enco-webpage/blob/main/images/readme-images/team-readme-image.PNG" align="center">
 
 All the pages have the same content after their specific information.
 There is the collaborators and the press section which will depict the companies and press that Enco has worked with.
 
-<img  src="/" align="center">
+<img  src="https://github.com/Readpato/enco-webpage/blob/main/images/readme-images/collaborators-readme-image.PNG" align="center">
 
 Then, the newsletter section appears, where the user has the possibility to subscribe to the newsletter Enco has.
 
-<img  src="/" align="center">
+<img  src="https://github.com/Readpato/enco-webpage/blob/main/images/readme-images/newsletter-readme-image.PNG" align="center">
 
 At the bottom of the page, the footer section can be found. There the user can find: the link to the Glossary section, specific information about the Company and its social media links.
 
-<img  src="/" align="center">
+<img  src="https://github.com/Readpato/enco-webpage/blob/main/images/readme-images/footer-readme-image.PNG" align="center">
 
 #
 
