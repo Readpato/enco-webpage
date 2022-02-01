@@ -96,40 +96,8 @@ main .press-section .press-logos img {
   margin-top: 1rem;
 }
 
-main .newsletter h5 {
-  margin-top: 5rem;
-}
-
-main .newsletter .input-field input[type="text"]:focus + label {
-  color: #e99a10;
-}
-
-main .newsletter .input-field .prefix.active {
-  color: #e99a10;
-}
-
-main .newsletter .input-field input[type="email"]:focus + label {
-  color: #e99a10;
-}
-
-main .newsletter .input-field input[type="text"]:focus {
-  border-bottom: 0.5px solid #e99a10;
-  -webkit-box-shadow: 0 1px 0 0 #e99a10;
-          box-shadow: 0 1px 0 0 #e99a10;
-}
-
-main .newsletter .input-field input[type="email"]:focus {
-  border-bottom: 0.5px solid #e99a10;
-  -webkit-box-shadow: 0 1px 0 0 #e99a10;
-          box-shadow: 0 1px 0 0 #e99a10;
-}
-
-main .newsletter button {
-  background-color: #e99a10;
-}
-
-main .newsletter button:hover {
-  background-color: #edae40;
+.nav-wrapper {
+  background-color: #6fb04b;
 }
 
 .header-wrapper {
@@ -193,6 +161,53 @@ main .newsletter button:hover {
   .header-wrapper {
     height: 80vh;
   }
+}
+
+main .newsletter h5 {
+  margin-top: 5rem;
+}
+
+main .newsletter .input-field input[type="text"]:focus + label {
+  color: #e99a10;
+}
+
+main .newsletter .input-field .prefix.active {
+  color: #e99a10;
+}
+
+main .newsletter .input-field input[type="email"]:focus + label {
+  color: #e99a10;
+}
+
+main .newsletter .input-field input[type="text"]:focus {
+  border-bottom: 0.5px solid #e99a10;
+  -webkit-box-shadow: 0 1px 0 0 #e99a10;
+          box-shadow: 0 1px 0 0 #e99a10;
+}
+
+main .newsletter .input-field input[type="email"]:focus {
+  border-bottom: 0.5px solid #e99a10;
+  -webkit-box-shadow: 0 1px 0 0 #e99a10;
+          box-shadow: 0 1px 0 0 #e99a10;
+}
+
+main .newsletter button {
+  background-color: #e99a10;
+}
+
+main .newsletter button:hover {
+  background-color: #edae40;
+}
+
+main .newsletter #error {
+  border-bottom: 0.5px solid red;
+  -webkit-box-shadow: 0 1px 0 0 red;
+          box-shadow: 0 1px 0 0 red;
+  color: red;
+}
+
+main .newsletter .existing-error {
+  color: red;
 }
 
 * {

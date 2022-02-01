@@ -188,6 +188,17 @@ main .newsletter button:hover {
   background-color: #edae40;
 }
 
+main .newsletter #error {
+  border-bottom: 0.5px solid red;
+  -webkit-box-shadow: 0 1px 0 0 red;
+          box-shadow: 0 1px 0 0 red;
+  color: red;
+}
+
+main .newsletter .existing-error {
+  color: red;
+}
+
 .page-footer {
   background-color: #6fb04b;
 }
