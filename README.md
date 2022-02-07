@@ -31,7 +31,7 @@ As this project runs with Bootstrap you will have to have NPM or anything simila
 npm install
 ```
 
-This will allow to download the dependencies you need to run the Memotest properly.
+This will allow to download the dependencies you need to run the Enco Webpage properly.
 
 #
 
